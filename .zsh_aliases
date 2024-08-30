@@ -1,0 +1,4 @@
+alias MakeAsst="cp ~/Desktop/Writing/Assignments/AssignmentLatexTemplate.tex"
+alias MakeNoteLatex="cp ~/Desktop/Writing/Notes/NotesLatexTemplate.tex"
+alias MakeNoteMD="cp ~/Desktop/Writing/Notes/NotesMarkdownTemplate.md"
+alias iCloud="cd ~/Library/Mobile\ Documents/com~apple~CloudDocs"

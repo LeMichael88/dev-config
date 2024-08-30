@@ -1,0 +1,22 @@
+*
+
+!README.md
+!.gitignore
+
+# Themes
+!.themes
+!.themes/*
+!.themes/**
+
+# Config files
+!.vimrc
+!.zshrc
+!.zsh_aliases
+
+# Config
+!.config 
+.config/*
+
+# Neovim
+!.config/nvim
+!.config/nvim/*
