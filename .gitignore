@@ -25,3 +25,8 @@
 !.vimrc
 !.config/nvim
 !.config/nvim/*
+
+# Window Management
+!.config/aerospace
+!.config/aerospace/*
+
