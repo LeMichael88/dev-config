@@ -1,15 +1,19 @@
+# Ignore everythign
 *
 
+# Readme
 !README.md
+
+# Git
 !.gitignore
+!.gitconfig
 
 # Themes
 !.themes
 !.themes/*
 !.themes/**
 
-# Config files
-!.vimrc
+# Shell config
 !.zshrc
 !.zsh_aliases
 
@@ -18,5 +22,6 @@
 .config/*
 
 # Neovim
+!.vimrc
 !.config/nvim
 !.config/nvim/*
