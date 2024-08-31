@@ -11,6 +11,7 @@ Plug 'nvim-tree/nvim-web-devicons'
 Plug 'folke/trouble.nvim'
 
 Plug 'neovim/nvim-lspconfig'
+Plug 'williamboman/mason.nvim'
 Plug 'hrsh7th/cmp-nvim-lsp'
 Plug 'hrsh7th/cmp-buffer'
 Plug 'hrsh7th/cmp-path'
@@ -109,6 +110,8 @@ lua <<EOF
   })
 
   -- Set up lspconfig.
+  require("mason").setup()
+
   local capabilities = require('cmp_nvim_lsp').default_capabilities()
   require('lspconfig')['clangd'].setup {
     capabilities = capabilities
