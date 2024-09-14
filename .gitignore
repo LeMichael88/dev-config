@@ -30,3 +30,5 @@
 !.config/aerospace
 !.config/aerospace/*
 
+# Tmux
+!.tmux.conf
