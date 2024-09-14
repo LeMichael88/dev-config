@@ -42,8 +42,8 @@ hi DiagnosticVirtualTextHint  guifg=#9ed06c
 " Vim Settings
 set number
 set cursorline
-set tabstop=2
-set shiftwidth=2
+set tabstop=4
+set shiftwidth=4
 set expandtab
 syntax on
 
